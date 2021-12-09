@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(225, 100%, 95%);
+    /* padding: 0 0 20px; */
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    
+}
+
+.bg-img{
+    background: url(./images/pattern-background-mobile.svg) no-repeat center/cover;
+    height: 400px;
+    width: 100%;
+    position:absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.card{
+    background-color:white;
+    block-size: fit content;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    position:absolute;
+    
+    
+}
+ 
+
+.hero{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+}
+
+ p{
+     font-size: 16px;
+    color:hsl(224, 23%, 55%);
+    
+}
+
+.card-text2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text2 h2{
+  font-size: 25px;
+  margin:10px 0;
+}
+
+.card-text2{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.card-text2 button{
+    text-decoration: underline;
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    border:none;
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.card-text2 button:hover{
+    opacity: 0.8;
+}
+.card .plan-data{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.buttons .first-btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.buttons .first-btn:hover{
+    opacity: 0.8;
+}
+
+
+.buttons .second-btn{
+    margin: 15px;
+    font-size: 14px;
+    font-weight: 800;
+    color:hsl(224, 23%, 55%);
+    border: none;
+    background-color: transparent;
+    transition: color 0.2s ease-in-out;
+
+}
+
+
+.buttons .second-btn:hover{
+    opacity: 0.8;
+  
+}
+
+
+@media (min-width: 768px) {
+    .bg-img{
+        background-image: url("./images/pattern-background-desktop.svg") no-repeat center/cover;
+        height: 500px;
+
+    }
+
+    /* .card{
+        width: 500px;
+    } */
+}
+
+
+
+
+
+
+
+
