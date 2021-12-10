@@ -124,6 +124,14 @@ body{
   
 }
 
+.attributions {
+    font-size: 11px; 
+    text-align: center; }
+}
+
+.attributions a{
+    color: hsl(228, 45%, 44%);
+}
 
 @media (min-width: 768px) {
     .bg-img{
